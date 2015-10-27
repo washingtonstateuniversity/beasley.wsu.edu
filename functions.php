@@ -17,10 +17,10 @@ add_filter( 'theme_page_templates', 'tfc_remove_page_templates' );
 
 // Enqueue custom Beasley Coliseum scripts
 // Enqueue Colorbox script
-//add_action( 'wp_enqueue_scripts', 'custom_scripts', 'colorbox_script', 11 );
+add_action( 'wp_enqueue_scripts', 'beasley_custom_scripts', 11 );
 
-function fittext_scripts() {
-	wp_enqueue_script( 'custom_scripts', get_stylesheet_directory_uri() . '/js/custom-scripts.js', array( 'jquery' ), spine_get_script_version(), true );
+function beasley_custom_scripts() {
+	wp_enqueue_script( 'beasley_custom_scripts', get_stylesheet_directory_uri() . '/js/custom-scripts.js', array( 'jquery' ), spine_get_script_version(), true );
 	wp_enqueue_script( 'colorbox_script', get_stylesheet_directory_uri() . '/js/jquery.colorbox.js', array( 'jquery' ), spine_get_script_version(), true );
 
 }
