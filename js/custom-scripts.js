@@ -10,4 +10,8 @@
 				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
 				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
 			}); // end of colorbox
+
+				// tabbed navigation
+				$("#tabs").tabs();
+  
 })(jQuery);
