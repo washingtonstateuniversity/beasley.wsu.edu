@@ -1,6 +1,7 @@
 // custom scripts for Beasley Coliseum
 
 // colorbox overrides
+(function($){
 			$(document).ready(function(){
             
 				//Examples of how to assign the Colorbox event to elements
@@ -9,3 +10,4 @@
 				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
 				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
 			}); // end of colorbox
+})(jQuery);
