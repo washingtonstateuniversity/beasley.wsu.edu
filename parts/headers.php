@@ -28,9 +28,9 @@ if ( spine_get_option( 'main_header_show' ) == 'true' ) :
 
 	</div>
 	<div id="header-links"><ul><li><a href="/beasley-event-services/">Beasley Event Services</a></li><li><a href="/reader-board-request/">Reader Board Request</a></li><li><a href="/join-our-listerv/">Join Our Listerv</a></li></ul></div>
-<div class="featured-title">
-	<h1 class="featured-header-title"><?php echo get_the_title(); ?></h1>
-</div>
+	<div class="featured-title">
+		<h1 class="featured-header-title"><?php echo get_the_title(); ?></h1>
+	</div>
 </header>
 
 <?php endif; ?>
