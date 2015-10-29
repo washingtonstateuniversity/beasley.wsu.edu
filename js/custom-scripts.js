@@ -12,6 +12,6 @@
 			}); // end of colorbox
 
 				// tabbed navigation
-				$("#tabs").tabs();
+				$(".tabs").tabs();
   
 })(jQuery);
