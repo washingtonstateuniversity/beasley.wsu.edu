@@ -27,7 +27,7 @@ if ( spine_get_option( 'main_header_show' ) == 'true' ) :
 		<sub class="sub-header" data-sitename="<?php echo $spine_main_header_values['site_name']; ?>" data-pagetitle="<?php echo $spine_main_header_values['page_title']; ?>" data-posttitle="<?php echo $spine_main_header_values['post_title']; ?>" data-default="<?php echo esc_html($spine_main_header_values['sub_header_default']); ?>" data-alternate="<?php echo esc_html($spine_main_header_values['sub_header_alternate']); ?>"><span class="sub-header-default"><?php echo strip_tags( $spine_main_header_values['sub_header_default'], '<a>' ); ?></span></sub>
 
 	</div>
-	<div id="header-links"><ul><li><a href="/beasley-event-services/">Beasley Event Services</a></li><li><a href="/reader-board-request/">Reader Board Request</a></li><li><a href="/join-our-listerv/">Join Our Listerv</a></li><li><a href="https://formtool.wsu.edu/beasley/Signup/index.castle?formid=5">Garage Sale</a></li></ul></div>
+	<div id="header-links"><ul><li><a href="/beasley-event-services/">Beasley Event Services</a></li><li><a href="/reader-board-request/">Reader Board Request</a></li><li><a href="/join-our-listerv/">Join Our Listerv</a></li><li><a href="https://formtool.wsu.edu/beasley/Signup/index.castle?formid=5">Garage Sale Registration</a></li></ul></div>
 	<div class="featured-title">
 		<h1 class="featured-header-title"><?php echo get_the_title(); ?></h1>
 	</div>
